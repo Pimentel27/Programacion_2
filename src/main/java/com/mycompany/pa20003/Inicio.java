@@ -58,14 +58,17 @@ public class Inicio extends javax.swing.JFrame {
 
         logoname.setBackground(new java.awt.Color(255, 255, 255));
         logoname.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        logoname.setForeground(new java.awt.Color(255, 255, 255));
         logoname.setText("UES FMO");
         bg.add(logoname, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, -1, 20));
 
         tiendabg.setBackground(new java.awt.Color(0, 102, 255));
         tiendabg.setForeground(new java.awt.Color(51, 0, 255));
+        tiendabg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com.mycompany.imagenes/tienda.png"))); // NOI18N
         bg.add(tiendabg, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 380, 330));
 
         favicon.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
+        favicon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com.mycompany.imagenes/favicon.png"))); // NOI18N
         favicon.setText("FMOcc");
         bg.add(favicon, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, -1, -1));
 
